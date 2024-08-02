@@ -3,6 +3,13 @@
 
 https://cosmocloud-assignment-one.vercel.app/
 
+## Features
+
+- Add Employee: Allows users to add a new employee with details such as name, address, and contact information.
+- List Employees: Displays a paginated list of employees fetched from the API.
+- Pagination: Supports navigating through employee records using Next and Previous buttons.
+- Delete Employee: Allows users to delete an employee record.
+
 ## Table of Contents
 
 - [Installation](#installation)
