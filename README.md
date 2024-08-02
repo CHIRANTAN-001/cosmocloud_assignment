@@ -1,6 +1,8 @@
 # Cosmocloud
 
 
+https://cosmocloud-assignment-one.vercel.app/
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -74,8 +76,3 @@ After installing the dependencies, you can start the development server.
 
 1. ReactJs
 2. TailwindCSS
-
-
-## Live Link
-
-https://cosmocloud-assignment-one.vercel.app/
