@@ -1,4 +1,4 @@
-# KonfHub
+# Cosmocloud
 
 
 ## Table of Contents
