@@ -21,15 +21,6 @@ const AddEmployee = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        // const employeeData = {
-        //     name,
-        //     address,
-        //     contact_method: {
-        //         contact_type: contactType,
-        //         value: contactValue
-        //     }
-        // }
-
         try {
             const res = await addEmployee({
                 name,
@@ -62,7 +53,6 @@ const AddEmployee = () => {
             <div className='bg-orange-100 min-h-screen flex justify-center items-center'>
                 <form onSubmit={handleSubmit} className='w-full max-w-lg bg-[#f98866] p-8 rounded shadow-md'>
                     <h2 className='text-2xl mb-4 font-bold'>Add Employee</h2>
-                    {/* {error && <p className='text-red-500'>{error}</p>} */}
                     <div className='mb-4'>
                         <label className='block text-black text-sm font-bold mb-2' htmlFor='name'>
                             Name
